@@ -10,7 +10,6 @@ border-color: #000000;
 header {
 grid-column: 3/7;
 grid-row: 1/2;
-
 }
 
 section {
@@ -36,6 +35,10 @@ grid-column: 1/-1;
 grid-row: 3/4;
 }
 
+.anfield {
+  grid column: 1/-1;
+  grid-row: 2/3;
+}
 @media only screen and (max-width: 900px) {
 
 header {
