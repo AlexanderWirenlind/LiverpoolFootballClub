@@ -76,6 +76,6 @@ background-color: #b4b4b4;
   h2 {font-size:22px;}
 }
 
-.Anfield {
-  padding: 30px;
+.float {
+  float: left;
 }
