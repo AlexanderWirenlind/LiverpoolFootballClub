@@ -61,9 +61,7 @@ footer{
   grid-column: 1/-1;
 }
 
-h1{
-  font-size: 18px;
-}
+h1 {font-size: 18px !important;}
 }
 
 @media screen and (max-height: 450px) {
