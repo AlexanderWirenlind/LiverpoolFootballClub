@@ -35,10 +35,7 @@ grid-column: 1/-1;
 grid-row: 3/4;
 }
 
-.anfield {
-  grid column: 1/-1;
-  grid-row: 2/3;
-}
+
 @media only screen and (max-width: 900px) {
 
 header {

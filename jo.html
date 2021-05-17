@@ -3,7 +3,7 @@
 
 <head>
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" type="" <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
   <title>Liverpoolstarting11</title>
 </head>
@@ -13,10 +13,22 @@
     <header>
       <h1>Liverpool Players</h1>
     </header>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">About us</a>
+      <a href="jo.html" target="_blank">The squad</a>
+      <a href="#">Contacts</a>
+    </div>
+    <!-- Use any element to open the sidenav -->
+    <span onclick="openNav()">open</span>
+
+    <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+
     <div class="anfield">
       <img src="img/anfield.jpeg" title="Anfield by Airviewsphotos" alt=" picture of liverpools football arena" width="100%" height="100%">
     </div>
   </div>
 </body>
+<script src="js/script.js"></script>
 
 </html>
